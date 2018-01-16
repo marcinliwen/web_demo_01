@@ -104,13 +104,19 @@ img {
 .timer_block{
     border: 0.5px solid #8186f4;
     border-radius: 4px;
+    font-size: 1.3em;
+    font-family: "OpenSans-Light";
+    width: 3em;
     padding: 5px;
+    text-align: center;
 }
 .colon{
-        font-size: 24spx;
+        font-size: 1.3em;
+        font-family: "OpenSans-Light";
         color:#8186f4;
-        float: left;
         text-align: center;
+        padding: 5px;
+
 }
 .video_button{
     display: flex;
