@@ -23,7 +23,7 @@ img {
 }
 .grid {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 80%;
     width: 100%;
 }
 .row {
@@ -46,19 +46,11 @@ img {
 
 [class*="col-"] {
     float: left;
-    padding: 10px 0px;
+    padding: 0.5em 0px;
    /*border: 1px solid red;*/
 }
 
-@media screen and (max-width:680px) {
-    [class*="col-"] {
-        width: 100%;
-       /*border: 1px solid red;*/
-    }
-    .hide{
-        display: none;
-    }
-}
+
 .justify_end{
     justify-content: flex-end;
 }
@@ -105,34 +97,38 @@ img {
 .fm_border{
     border-left: 2px solid #0097ff;
 }
+.timer{
+    display: flex;
+}
 .timer_block{
     border: 0.5px solid #8186f4;
-    border-radius: 4px;
-    font-size: 1.3em;
+    border-radius: 6px;
+    font-size: 25px;
     font-family: "OpenSans-Light";
-    width: 3em;
-    padding: 5px;
+    width: 70px;
+    padding: 7px;
     text-align: center;
 }
 .colon{
-        font-size: 1.3em;
-        font-family: "OpenSans-Light";
+        font-size: 25px;
+        font-family: "OpenSans-Regular";
         color:#8186f4;
         text-align: center;
         padding: 5px;
+        width: 1.2em; 
 
 }
 .video {
     border-radius: 5px;
     background-color: white;
-    padding: 5em;
+    padding: 7em 5em;
     width: 100%;
     display: flex;
 }
 .video_button{
     display: flex;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     margin: auto;
     border-radius: 5em;
     background-color: #38a5db;
@@ -143,7 +139,19 @@ img {
     margin: auto;
     width: 0;
     height: 0;
-    border-left: 1.5em solid white;
-    border-bottom: 1em solid transparent;
-    border-top: 1em solid transparent;
+    border-left: 1.2em solid white;
+    border-bottom: 0.7em solid transparent;
+    border-top: 0.7em solid transparent;
+}
+@media screen and (max-width:680px) {
+    [class*="col-"] {
+        width: 100%;
+       /*border: 1px solid red;*/
+    }
+    .hide{
+        display: none;
+    }
+    .video {
+        width: 100%;
+    }
 }

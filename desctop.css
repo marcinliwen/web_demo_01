@@ -33,3 +33,13 @@ a {
 #home, #contact{
     color: white;
 }
+#time_title{
+    font-size: 20px;
+    line-height: 34px;
+    color: rgb(47,147,210);
+    font-family: "OpenSans-Light";
+}
+#subscribe_01_text{
+    font-size: 41px;
+    padding: 1.5em 0px;
+}
