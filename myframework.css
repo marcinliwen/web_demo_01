@@ -46,6 +46,7 @@ img {
 
 [class*="col-"] {
     float: left;
+    padding: 10px 0px;
    /*border: 1px solid red;*/
 }
 
@@ -53,6 +54,9 @@ img {
     [class*="col-"] {
         width: 100%;
        /*border: 1px solid red;*/
+    }
+    .hide{
+        display: none;
     }
 }
 .justify_end{
