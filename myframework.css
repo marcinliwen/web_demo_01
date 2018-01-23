@@ -144,8 +144,8 @@ paddingbottom{
 .video {
     border-radius: 6px;
     /*padding: 2em 5em;*/
-    width: 470px;
-    height: auto;
+    width: 90%;
+    max-height: 330px;
     display: flex;
     background: url(video.jpg);
     background-size:cover;

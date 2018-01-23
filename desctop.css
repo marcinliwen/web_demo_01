@@ -40,6 +40,26 @@ a {
     font-family: "OpenSans-Light";
 }
 #subscribe_01_text{
-    font-size: 41px;
+    font-size: 40px;
+    line-height: 64px;
+    color: rgb(255,255,255);
+    font-family: "OpenSans-Regular";
     padding: 1.5em 0px;
+}
+#email{
+    font-size: 17px;
+    color: rgb(87,102,119);
+    font-family: "OpenSans-Light";
+    width: 480px;
+    height: 50px;
+    border-style: none;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+}
+#subsbutton{
+    height: 50px;
+    position: relative;
+    top:-50px;
+    z-index: 5;
 }
