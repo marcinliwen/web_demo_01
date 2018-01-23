@@ -50,7 +50,25 @@ img {
    /*border: 1px solid red;*/
 }
 
-
+.fontblue{
+font-size: 20px;
+line-height: 34px;
+color: rgb(47,147,210);
+font-family: "OpenSans-Light";
+text-align: right;
+}
+.fontwhite{
+font-size: 17px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-family: "OpenSans-Light";
+}
+.paddingtop{
+    padding-top: 3em;
+}
+paddingbottom{
+    padding:3em;
+}
 .justify_end{
     justify-content: flex-end;
 }
@@ -124,12 +142,14 @@ img {
 
 }
 .video {
-    border-radius: 5px;
-    background-color: white;
-    padding: 2em 5em;
-    width: 100%;
-    height: 70%;
+    border-radius: 6px;
+    /*padding: 2em 5em;*/
+    width: 470px;
+    height: auto;
     display: flex;
+    background: url(video.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .video_button{
     display: flex;
