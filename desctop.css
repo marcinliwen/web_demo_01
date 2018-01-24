@@ -46,12 +46,16 @@ a {
     font-family: "OpenSans-Regular";
     padding: 1.5em 0px;
 }
+#subsbutton{
+    
+}
 #email{
     font-size: 17px;
     color: rgb(87,102,119);
-    font-family: "OpenSans-Light";
-    width: 480px;
+    font-family: "OpenSans-Regular";
+    width: 100%;
     height: 50px;
+    padding-left: 1.5em;
     border-style: none;
     border-radius: 25px;
     position: relative;
@@ -62,4 +66,7 @@ a {
     position: relative;
     top:-50px;
     z-index: 5;
+    font-family: "OpenSans-Regular";
+    font-size: 17px;
+    line-height: 5px;
 }

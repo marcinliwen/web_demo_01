@@ -23,7 +23,7 @@ img {
 }
 .grid {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 85%;
     width: 100%;
 }
 .row {
@@ -58,15 +58,21 @@ font-family: "OpenSans-Light";
 text-align: right;
 }
 .fontwhite{
+    width: 100%;
 font-size: 17px;
 line-height: 26px;
 color: rgb(255,255,255);
 font-family: "OpenSans-Light";
+text-align: left;
+padding: 0px 10px;
+}
+.revers_flex{
+    flex-direction: row-reverse;
 }
 .paddingtop{
     padding-top: 3em;
 }
-paddingbottom{
+.paddingbottom{
     padding:3em;
 }
 .justify_end{
