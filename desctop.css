@@ -12,7 +12,7 @@
 }
 
 body{
-    font-family: "OpenSans-Light";
+    font-family: "OpenSans-Regular";
     margin: 0px;
 }
 ul{
@@ -70,4 +70,30 @@ a {
     font-family: "OpenSans-Regular";
     font-size: 17px;
     line-height: 5px;
+}
+#team_title{
+    font-size: 20px;
+    font-family: "OpenSans-Regular";
+    color: rgb(28,31,131);
+}
+#face1{
+    background-image: url(pictures/face1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#face2{
+    background-image: url(pictures/face2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#face3{
+    background-image: url(pictures/face3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#face4{
+    background-image: url(pictures/face4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
