@@ -53,7 +53,8 @@ a {
     font-size: 17px;
     color: rgb(87,102,119);
     font-family: "OpenSans-Regular";
-    width: 100%;
+    width: 90%;
+    margin-right: 10%;
     height: 50px;
     padding-left: 1.5em;
     border-style: none;
