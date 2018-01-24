@@ -59,12 +59,13 @@ text-align: right;
 }
 .fontwhite{
     width: 100%;
+    padding: 0px, 10px;
 font-size: 17px;
 line-height: 26px;
 color: rgb(255,255,255);
 font-family: "OpenSans-Light";
 text-align: left;
-padding: 0px 10px;
+padding: 20px 0px;
 }
 .revers_flex{
     flex-direction: row-reverse;
@@ -73,7 +74,7 @@ padding: 0px 10px;
     padding-top: 3em;
 }
 .paddingbottom{
-    padding:3em;
+    padding-bottom:3em;
 }
 .justify_end{
     justify-content: flex-end;
@@ -150,7 +151,7 @@ padding: 0px 10px;
 .video {
     border-radius: 6px;
     /*padding: 2em 5em;*/
-    width: 90%;
+    width: 85%;
     max-height: 330px;
     display: flex;
     background: url(video.jpg);
