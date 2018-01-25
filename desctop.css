@@ -21,6 +21,17 @@ ul{
 a {
     text-decoration: none;
 }
+a:active{
+    color: #0097ff;
+}
+#header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
 #home, #contact{
     background-image: linear-gradient(87deg, #3846b4 0%, #243193 100%);
 }
@@ -96,4 +107,22 @@ a {
     background-image: url(pictures/face4.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#contact_us{
+    
+font-size: 16px;
+padding-bottom: 2em
+}
+#mail_to a{
+    font-size: 20px;
+    color: rgb(15,129,255);
+    text-decoration: underline;
+}
+#lorem_ipsum{
+    padding-top: 2em;
+    padding-bottom: 4em;
+    font-size: 15px;
+    width: 370px;
+    color: rgb(255,255,255);
+
 }
