@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="myframework.css" >
     <link rel="stylesheet" href="desctop.css">
     <title>Document</title>
-    <script>
-        window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-        }
- Run
-    </script>
 </head>
 <body>
     <div id="header">
@@ -31,7 +25,7 @@
             </div>        
         </div>
     </div>
-    <div name="home" id="home">
+    <div id="home">
         <div class="grid">
             <div class="time row text_left">
                 <div class="col-12 paddingtop71">
@@ -41,13 +35,13 @@
                         </div>
                     </div>
                     <div class="justify_start timer">     
-                        <div class="timer_block days " id="days"><p>05d</p></div>
+                        <div class="timer_block days "><p>05d</p></div>
                         <div class="colon "><p>:</p></div>
-                        <div class="timer_block hours " id="hours"><p>20h</p></div>                            
+                        <div class="timer_block hours "><p>20h</p></div>                            
                         <div class="colon "><p>:</p></div>
-                        <div class="timer_block minutes " id="minutes"><p>30m</p></div>
+                        <div class="timer_block minutes "><p>30m</p></div>
                         <div class="colon "><p>:</p></div>
-                        <div class="timer_block seckonds " id="seconds"><p>15s</p></div>     
+                        <div class="timer_block seckonds "><p>15s</p></div>     
                     </div>
                 </div>
             </div>
@@ -57,21 +51,16 @@
                     <div id="subscribe_01_form">
                         <form class="row justify_end">
                             <legend class="fontwhite"><p>Subscribe and get the latest information</p></legend>
-                            <input id="email" type="text" name="email" onfocus="if(this.value == 'Enter your email') { this.value = ''; }" value="Enter your email">
+                            <input id="email" type="text" name="email" value="Enter your email">
                             <button id="subsbutton" class="button" type="submit" value="Subscribe">Subscribe</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-6 row paddingtop justify_end">
                     <div class="video ">
-                        <button class="video_button" onclick="document.getElementById('modal_video').style.display='block'">
+                        <button class="video_button">
                             <div class="video_triangle"></div>
                         </button>
-                    </div>
-                    <div id="modal_video" class="modal">
-                        <div class="modal-content">
-                            <iframe width="560" height="315" src="..." frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>             
-                       </div>
                     </div>
                 </div>
             </div>
@@ -192,41 +181,7 @@
             </div>
         </div>    
     </div>
-<script>
-       var countDownDate = new Date("2018-06-25T12:00:00Z").getTime();
-            
-            var x = setInterval(function() {
-            
-                var now = new Date().getTime();
-                
-                var distance = countDownDate - now;
-                
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-                document.getElementById("days").innerHTML = days + "d";
-                document.getElementById("hours").innerHTML = hours + "h";
-                document.getElementById("minutes").innerHTML = minutes + "m";
-                document.getElementById("seconds").innerHTML = seconds + "s";
-
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
-                }
-            }, 1000);
-            
-            //modal video
-            var modal = document.getElementById('modal_video');
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                    }
-            }
-</script>
+    
     
 </body>
 </html>
