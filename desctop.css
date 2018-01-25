@@ -149,7 +149,7 @@ display: block;
 margin:auto;
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
     #header{
         position: relative;
     }
