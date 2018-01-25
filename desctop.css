@@ -148,3 +148,61 @@ iframe{
 display: block;
 margin:auto;
 }
+
+@media screen and (max-width:360px){
+    #header{
+        position: relative;
+    }
+    #subscribe_01_text{
+        font-size: 28px;
+        line-height: 34px;
+        font-family: "OpenSans-Light";
+        width: 270px;
+        line-height: 44px;
+        text-align: center;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    #email{
+        font-size: 14px;
+        width: 95%;
+        margin-right: 5%;
+    }
+    #subsbutton{
+        width: 56px;
+        padding: 20px;
+        border-radius: 26px;
+    }
+    #subsbutton p{
+        display: none;
+    }
+    #socialmedia_title{
+        text-align: center;
+        font-size: 20px;
+        font-family: "OpenSans-Regular";
+    }
+    #social_media{
+        justify-content: center;
+    }
+    #team_title{
+        padding: 45px 0px;
+    }
+    #light_logo img{
+        margin: auto;
+        padding:30px 0px;
+    }
+    #contact_us{
+        padding-top: 4em;
+    }
+    #lorem_ipsum{
+        padding: 30px 10px;
+    }
+    #faq{
+        padding: 0px 20px;
+        border-left: solid 2px #0097ff;
+        border-right: solid 2px #0097ff;
+    }
+    #copyright{
+        padding: 30px 0px;
+    }
+}

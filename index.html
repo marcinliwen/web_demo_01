@@ -58,7 +58,7 @@
                         <form class="row justify_end">
                             <legend class="fontwhite"><p>Subscribe and get the latest information</p></legend>
                             <input id="email" type="text" name="email" onfocus="if(this.value == 'Enter your email') { this.value = ''; }" value="Enter your email">
-                            <button id="subsbutton" class="button" type="submit" value="Subscribe">Subscribe</button>
+                            <button id="subsbutton" class="button" type="submit" value="Subscribe"><p>Subscribe</p></button>
                         </form>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             <p>Our Social media</p>
                         </div>
                     </div>                
-                    <div class="row justify_end">           
+                    <div class="row justify_end" id="social_media">           
                         <div class="social_icons ">                
                             <img src="images/Twitter@1x.svg">
                         </div>
@@ -173,22 +173,33 @@
                 <div class="contact_center" id="contact_us">
                     <p>Contact us:</p>
                 </div>
-                <div class="contact_center" id="mail_to">
+                <div class="contact_center desctop" id="mail_to">
                     <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>
-                </div>  
+                </div>
+                <div class="contact_center mobile" id="mail_to">
+                    <a href="mailto:hello@stay.io">hello@stay.io</a>
+                </div>    
                 <div class="contact_center" id="lorem_ipsum">
                     <p>Lorem ipsum dolor sit amet, sed nec ante elit lobortis, quis bibendum.</p>
                 </div> 
             </div>
             <div class="row justify_center paddingtop71 paddingbottom1">
-                <div class="col-8">
+                <div class="col-8 desctop">
                     <div class="row">
-                        <div class="col-3"><a class="footer_menu" href="...">Copyright 2017</a></div>
-                        <div class="col-3 fm_border"><a class="footer_menu" href="...">FAQ</a></div>
-                        <div class="col-3 fm_border"><a class="footer_menu" href="...">Terms of Use</a></div>
-                        <div class="col-3 fm_border"><a class="footer_menu" href="...">Privacy Policy</a></div>
+                        <div class="col-3" id="copyright"><a class="footer_menu" href="...">Copyright 2017</a></div>
+                        <div class="col-3 fm_border" id="faq"><a class="footer_menu" href="...">FAQ</a></div>
+                        <div class="col-3 fm_border" id="tou"><a class="footer_menu" href="...">Terms of Use</a></div>
+                        <div class="col-3 fm_border" id="pp"><a class="footer_menu" href="...">Privacy Policy</a></div>
                     </div>
-                </div>                
+                </div>
+                <div class="col-8 mobile">
+                    <div class="row">
+                        <div class="footer_links" id="tou"><a class="footer_menu" href="...">Terms of Use</a></div>
+                        <div class="footer_links " id="faq"><a class="footer_menu" href="...">FAQ</a></div>
+                        <div class="footer_links " id="pp"><a class="footer_menu" href="...">Privacy Policy</a></div>
+                        <div class="col-3" id="copyright"><a class="footer_menu" href="...">Copyright 2017</a></div>
+                    </div>
+                </div>                   
             </div>
         </div>    
     </div>

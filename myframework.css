@@ -11,6 +11,12 @@ body, html{
     padding: 0px;
     width: 100%;
 }
+.desctop{
+    display:block;
+}
+.mobile{
+    display: none;
+}
 img {
     display: block;
 }
@@ -24,8 +30,8 @@ img {
 }
 .grid {
     margin: 0 auto;
-    max-width: 85%;
-    width: 100%;
+    /*max-width: 85%;*/
+    width: 85%;
 }
 .row {
     width: 100%;
@@ -237,16 +243,83 @@ background-color: white;
 .contact_center{
     width: 100%;
 }
-@media screen and (max-width:680px) {
+
+@media screen and(max-width:700px, min-width:361px){
+
+}
+@media screen and (max-width:360px) {
     [class*="col-"] {
         width: 100%;
        /*border: 1px solid red;*/
     }
+    .desctop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
     .hide{
         display: none;
     }
+    .paddingtop71{
+        padding-top: 20px;
+    }
+    .paddingtop{
+        padding-top: 5px;
+    }
+    
+    .grid{
+        width: 90%;
+    }
+    .text_left{
+        text-align: center;
+    }
+    .text_end{
+        text-align: center;
+    }
+    .timer_block{
+        font-size: 18px;
+        width: 53px;
+        padding: 3px;
+        border-radius: 2px;
+        margin: auto;
+    }
+    .colon{
+        font-size: 18px;
+        width: 30px;
+    }
     .video {
         width: 100%;
-        height: 150px;
+        height: 190px;
+    }
+    .fontwhite{
+        font-size: 16px;
+        line-height: 26px;
+        width: 270px;
+        margin: auto;
+        text-align: center;
+    }
+    .social_icons{
+        margin: auto;
+    }
+    .person{
+        padding: 0px;
+    }
+    .person_position{
+        padding-top: 10px;
+    }
+    .person_description{
+        padding: 20px 10px;
+        margin: auto;
+        font-size: 17px;
+    }
+    .person_social{
+        padding-bottom: 20px;
+    }
+    .contact_button{
+        height: 46px;
+    }
+    .footer_links{
+        margin:auto;
     }
 }
