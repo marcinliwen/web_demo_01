@@ -128,10 +128,12 @@ padding-bottom: 2em
 }
 
 
-@media screen and (max-width:769px) and (min-width:376px){
+@media screen and (max-width:990px) and (min-width:376px){
 
     #subscribe_01_text{
-        font-size: 30px;
+        font-size: 28px;
+        padding-bottom: 120px;
+        
     }
  
 }
