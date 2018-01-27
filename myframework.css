@@ -85,6 +85,9 @@ padding: 20px 0px;
 .paddingtop{
     padding-top: 3em;
 }
+.paddingtop8em{
+    padding-top: 8em;
+}
 .paddingbottom{
     padding-bottom:3em;
 }
@@ -196,10 +199,14 @@ padding: 20px 0px;
     border-bottom: 0.7em solid transparent;
     border-top: 0.7em solid transparent;
 }
+.socialmedia{
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
 .person{
     width: calc(25% - 10px);
     border-radius: 4px;
-    box-shadow: 0px 3px 6px grey;
+    box-shadow: 1px 2px 6px 0px grey;
     margin:5px 5px 60px 5px;
     display: flex;
     flex-wrap: wrap;
@@ -210,6 +217,7 @@ padding: 20px 0px;
     height: 135px;
     border-radius: 5px;
     background-color: #38a5db;
+    margin-top:2em;
 }
 .person_name{
     width: 100%;
@@ -227,11 +235,10 @@ padding: 20px 0px;
     line-height: 29px;
     color: rgb(69,81,95);
     font-family: "OpenSans-Regular";
-    padding: 10px;
-    margin: 1.5em 0px;
+    margin: 1.5em 1em;
 }
 .person_social{
-    padding-bottom: 6em;
+    padding-bottom:4em;
 }
 .ps_icon{
     width: 43px;

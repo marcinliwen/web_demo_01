@@ -55,7 +55,10 @@ a:active{
     line-height: 64px;
     color: rgb(255,255,255);
     font-family: "OpenSans-Regular";
-    padding: 1.5em 0px;
+    padding: 1em 0px;
+}
+#subscribe_01_form{
+    height: 100px;
 }
 #subsbutton{
     
