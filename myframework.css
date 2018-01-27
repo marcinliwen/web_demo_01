@@ -56,7 +56,9 @@ img {
     padding: 0.5em 0px;
    /*border: 1px solid red;*/
 }
-
+.float{
+    float: right;
+}
 .fontblue{
 font-size: 20px;
 line-height: 34px;
@@ -136,9 +138,14 @@ padding: 20px 0px;
     border-left: 2px solid #0097ff;
 }
 .menu{
+    display: flex;
+    justify-content: flex-end;
    color: rgb(28,32,133);
    font-family: "OpenSans-Regular";
    font-size: 16px;
+}
+.menu_item{
+    padding-left: 4em;
 }
 .timer{
     display: flex;
@@ -190,6 +197,10 @@ padding: 20px 0px;
     border-top: 0.7em solid transparent;
 }
 .person{
+    width: calc(25% - 10px);
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px grey;
+    margin:5px 5px 60px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -269,7 +280,7 @@ display: block;
 margin:auto;
 }
 
-@media screen and (max-width:990px) and (min-width:376px){
+@media screen and (max-width:990px) and (min-width:661px){
 
     .video{
         width: 100%;
@@ -281,13 +292,23 @@ margin:auto;
     .paddingtop{
         padding-top: 1em;
     }
+    .desctop{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+    
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:660px) {
     [class*="col-"] {
         width: 100%;
        /*border: 1px solid red;*/
     }
     .desctop{
+        display: none;
+    }
+    .tablet{
         display: none;
     }
     .mobile{
