@@ -404,7 +404,7 @@ margin:auto;
         margin: 5px;
         height: 100%;
         flex-shrink: 0;
-        
+        scroll-behavior: smooth;
     }
     .person_position{
         padding-top: 10px;
@@ -422,6 +422,7 @@ margin:auto;
         display: flex;
         overflow-x: auto;
         flex-wrap: nowrap;
+        scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
         -webkit-scroll-snap-points-x: repeat(300px);
         -ms-scroll-snap-points-x: repeat(300px);
@@ -429,6 +430,15 @@ margin:auto;
         -webkit-scroll-snap-type: mandatory;
         -ms-scroll-snap-type: mandatory;
          scroll-snap-type: mandatory;
+    }
+    #persons::-webkit-scrollbar{
+        width: 0;
+    }
+    
+    #slides{
+        width: 330px;
+        text-align: center;
+        overflow: hidden;
     }
         /*********slider*****/
     .slider_row{
