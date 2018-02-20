@@ -400,6 +400,14 @@ margin:auto;
     .social_icons{
         margin: auto;
     }
+    .team_title{
+        font-size: 20px;
+        line-height: 34px;
+        color: rgb(47,147,210);
+        font-family: "OpenSans-Light";
+        width: 100%;
+        position: absolute;
+    }
     .person{
         padding: 0px;
         width: calc(100vw - 40px);
@@ -407,6 +415,9 @@ margin:auto;
         height: 100%;
         flex-shrink: 0;
         scroll-behavior: smooth;
+    }
+    .person_picture{
+        margin-top: 80px;
     }
     .person_position{
         padding-top: 10px;
