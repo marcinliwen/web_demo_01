@@ -27,5 +27,5 @@ hideperson1();
 
 }
 else{
-
+    shawAll();
 }
