@@ -57,7 +57,7 @@
                     <div id="subscribe_01_form">
                         <form class="row justify_end ">
                             <legend class="fontwhite"><p>Subscribe and get the latest information</p></legend>
-                            <input id="email" type="text" name="email" onfocus="if(this.value == 'Enter your email') { this.value = ''; }" value="Enter your email">
+                            <input id="email" type="email" name="email" placeholder="Enter your email" value="">
                             <button id="subsbutton" class="button desctop buttonshadow" type="submit" value="Subscribe"><p>Subscribe</p></button>
                             <button id="subsbutton" class="button mobile tablet" type="submit" value="Subscribe"><img src="Subscribe@1x.svg" alt="arrow" style="width:18px"></button>
                         </form>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="person ">
+                <div id="person1" class="person ">
                     <div class="person_picture" id="face1">
         
                     </div>
@@ -124,7 +124,7 @@
                         <button class="ps_icon"><img src="images/profil/linkedin@1x.svg"></button>
                     </div>
                 </div>
-                <div class="person  hide">
+                <div id="person2" class="person  ">
                     <div class="person_picture" id="face2"></div>
                     <div class="person_name">Mea Martin</div>
                     <div class="person_position">CEO</div>
@@ -134,7 +134,7 @@
                         <button class="ps_icon"><img src="images/profil/linkedin@1x.svg"></button>
                     </div>
                 </div>
-                <div class="person  hide desctop">
+                <div id="person3" class="person  ">
                     <div class="person_picture" id="face3"></div>
                     <div class="person_name">David Banks</div>
                     <div class="person_position">CEO</div>
@@ -144,7 +144,7 @@
                         <button class="ps_icon"><img src="images/profil/linkedin@1x.svg"></button>
                     </div>
                 </div>
-                <div class="person  hide desctop">
+                <div id="person4" class="person  ">
                     <div class="person_picture" id="face4">
                        
                     </div>
@@ -158,10 +158,10 @@
                 </div>
             </div>
             <div class="slider_row">
-                <div class=" slider"></div>
-                <div class=" slider"></div>
-                <div class=" slider"></div>
-                <div class=" slider"></div>
+                <div class="slider blok1" onclick="person1()"></div>
+                <div class="slider blok2" onclick="person2()"></div>
+                <div class="slider blok3" onclick="person3()"></div>
+                <div class="slider blok4" onclick="person4()"></div>
             </div>
         </div>
     </div>
@@ -209,6 +209,7 @@
             </div>
         </div>    
     </div>
+<script src="main.js"></script>
 <script>
        var countDownDate = new Date("2018-06-25T12:00:00Z").getTime();
             
@@ -244,6 +245,6 @@
                     }
             }
 </script>
-    
+
 </body>
 </html>

@@ -23,6 +23,23 @@ body, html{
 img {
     display: block;
 }
+input{
+    outline: none;
+}
+button{
+    outline: none;
+}
+button:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  button:active{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
 .button {
     width: 158px;
     padding: 1em 2em;
@@ -30,6 +47,7 @@ img {
     background-color: #38a5db;
     border-style: none;
     color: white;
+   
 }
 .grid {
     margin: 0 auto;
@@ -410,7 +428,11 @@ margin:auto;
         border-radius: 50%;
         background-color: rgb(190, 190, 190);
         margin: 0px 15px;
-    }   
+    } 
+   .slider:active{
+       background-color: #7f8b98;
+   }
+    
     .contact_button{
         height: 46px;
     }
