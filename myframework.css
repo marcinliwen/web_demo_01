@@ -30,15 +30,16 @@ button{
     outline: none;
 }
 button:hover{
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
   }
   
   button:active{
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
             transform: scale(1);
+            
   }
 .button {
     width: 158px;
@@ -47,8 +48,9 @@ button:hover{
     background-color: #38a5db;
     border-style: none;
     color: white;
-   
+    
 }
+
 .grid {
     margin: 0 auto;
     /*max-width: 85%;*/
@@ -469,12 +471,10 @@ margin:auto;
         background-color: rgb(190, 190, 190);
         margin: 0px 15px;
     } 
-   .slider:visited{
+   .slider:hover{
        background-color: #7f8b98;
    }
-    .slider:unvisited{
-        background-color: rgb(190, 190, 190);
-    }
+   
     .contact_button{
         height: 46px;
     }
